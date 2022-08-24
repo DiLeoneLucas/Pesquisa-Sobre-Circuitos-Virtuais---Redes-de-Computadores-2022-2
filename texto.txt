@@ -1,0 +1,20 @@
+Circuitos Virtuais (CV)
+
+
+  Um circuito virtual (Virtual Circuit) é uma conexão criada e relacionada a caminhos estabelecidos pela rede de comutação por pacotes, desde a sua origem até 
+o seu destino, de modo que aparente existir um “casamento” entre a camada física e os sistemas finais. Antes que uma conexão, ou Circuito Virtual, possam ser 
+usados, os mesmos devem ser estabelecidos, através de dois ou mais nós ou até aplicações de software por meio de configurações das partes relevantes da rede 
+de interconectividade.
+  Existem dois tipos de Circuitos Virtuais, os Permanentes (PVC) e os Comutados (SVC), o PVC indica uma conexão virtual permanente que foi criada manualmente, 
+sendo desfeita apenas com a intervenção humana, enquanto os SVC possuem uma conexão de circuitos virtuais criados sob uma demanda de protocolos de sinalização,
+criadas de forma antecipada.
+  Um exemplo de CV é o protocolo Frame Relay, que é uma tecnologia eficiente de comunicação de dados que é utilizada para transmitir, de maneira rápida e barata,
+as informações digitais através de uma rede de dados, assim dividindo essas informações em “quadros”, ou frames, a um ou mais destinos. O Frame Relay 
+proporciona a orientação da conexão em sua camada de trabalho.
+  Outro exemplo é o BitTorrent, um sistema P2P (peer-to-peer), um sistema que compartilha o download de arquivos de forma online apenas entre usuários, sem a 
+necessidade do uso de um servidor específico, usando assim os computadores que fazem o download desse arquivo em específico como um “servidor”.
+  A comunicação de CVs é parecida com a Comutação de Circuitos, pois ambas são orientadas a conexão, em ambos os casos os dados são entregues na ordem correta 
+requerendo uma sinalização de sobrecarga durante o estabelecimento de uma conexão, mas a comutação de circuitos fornece uma latência e uma taxa bits constante, 
+enquanto nos CVs esta taxa pode variar devido a alguns fatores, como:
+  - Variação de comprimentos de fila de pacotes nos nós de rede;
+  - variação da taxa de bits gerada pela aplicação.
